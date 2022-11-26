@@ -1,0 +1,11 @@
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+    "userId": "User 01"
+}
+
+###
+
+GET http://localhost:5000/api/movies/1/searchMovies?name=&year=&discover=&media=&language=
+authorization: 8qlOkxz4wq
